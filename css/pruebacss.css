@@ -1,0 +1,83 @@
+body {
+  height: 1700px; }
+
+header {
+  padding: 20px 0px 0px 10px;
+  background-image: linear-gradient(#da8fc3, #a34aa3);
+  border-bottom: black double; }
+  header h1 {
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 80px;
+    color: #421642; }
+  header #logo {
+    border-style: double;
+    bottom: 50px;
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    bottom: 1rem; }
+
+main {
+  height: 1200px;
+  width: 100%;
+  background-image: linear-gradient(#fcf9fb, #f5e4f5); }
+  main section {
+    height: 680px; }
+    main section p {
+      font-size: 30px;
+      color: #421642;
+      font-family: 'Balthazar', serif;
+      text-align: center;
+      margin: 100px 50px 100px 50px; }
+
+nav {
+  position: sticky;
+  top: 0%; }
+  nav li {
+    text-align: center;
+    width: 16%;
+    border-right: 3px solid #8f4e8f; }
+    nav li a {
+      font-family: fantasy;
+      color: #421642;
+      font-size: 20px; }
+
+#menu ul {
+  list-style-type: none;
+  background-color: plum;
+  display: flex;
+  align-items: center;
+  height: 60px; }
+
+footer {
+  border: 1px solid black;
+  background-image: linear-gradient(#e7cbcf, #aa83aa);
+  width: 100%;
+  height: 15%;
+  font-family: fantasy;
+  font-size: 17px;
+  color: #421642; }
+
+#cajaGrid {
+  display: grid;
+  grid-template-columns: 24,5% 24,5% 24,5% 24,5%;
+  grid-template-rows: 50% 50%;
+  grid-template-areas: "datos datos datos datos" "datos2 datos2 datos3 datos3";
+  column-gap: 2px;
+  row-gap: 2px;
+  align-items: center;
+  text-align: center;
+  margin: 15px; }
+  #cajaGrid .datos {
+    grid-area: datos; }
+  #cajaGrid .datos2 {
+    grid-area: datos2; }
+  #cajaGrid .datos3 {
+    grid-area: datos3; }
+
+#carrousel {
+  border-top: black double;
+  border-bottom: black double;
+  height: 680px;
+  width: 100%; }
